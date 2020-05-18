@@ -9,7 +9,10 @@
         <property name="connection.url">jdbc:oracle:thin:@localhost:1521:orcl</property>
         <property name="connection.username">herkansing</property>
         <property name="connection.password">herkansing</property>
-        <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>  
+        <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
     <mapping resource="Log.hbm.xml"/>
     </session-factory>
-</hibernate-configuration> 
+</hibernate-configuration>
+
+
+

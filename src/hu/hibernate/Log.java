@@ -1,4 +1,8 @@
-package src.hu.hibernate;
+package hu.hibernate;
+
+import oracle.net.ns.Message;
+
+import java.util.ArrayList;
 
 public class Log {
     private int id;
@@ -20,12 +24,12 @@ public class Log {
         this.id = id;
     }
 
-    public String getMessage() {
-        return message;
-    }
-
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public String getMessage() {
+        return message;
     }
 
     @Override

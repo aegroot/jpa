@@ -1,18 +1,12 @@
-package src.hu.hibernate;
+package hu.hibernate;
 
 import java.sql.SQLException;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 
 
-
-import org.hibernate.Session;  
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;  
-import org.hibernate.Transaction;  
-import org.hibernate.boot.Metadata;  
-import org.hibernate.boot.MetadataSources;  
-import org.hibernate.boot.registry.StandardServiceRegistry;  
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
 public class Main {
@@ -33,6 +27,6 @@ public class Main {
       t.commit();  
       System.out.println("successfully saved");    
       factory.close();  
-      session.close();   
+      session.close();
   }
 }
